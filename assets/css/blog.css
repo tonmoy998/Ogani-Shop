@@ -1,0 +1,51 @@
+.blog {
+  background-color: rgba(250, 255, 250, 0.5);
+  padding: 1rem 0;
+}
+.blog .container .display-6 {
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+.blog .container .row .col-md-4 {
+  display: flex;
+  justify-content: space-around;
+}
+.blog .container .row .col-md-4 .col-md-12 {
+  width: 99% !important;
+  height: fit-content;
+  margin: 0 auto;
+}
+.blog .container .row .col-md-4 .col-md-12 img {
+  width: 100%;
+  max-width: 100%;
+}
+.blog .container .row .col-md-4 .col-md-12 img:hover {
+  opacity: 0.75;
+}
+.blog .container .row .col-md-4 .col-md-12 .blog-date,
+.blog .container .row .col-md-4 .col-md-12 .blog-comment {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 0;
+  margin: 0;
+}
+.blog .container .row .col-md-4 .col-md-12 .blog-comment {
+  margin-left: 1rem;
+}
+.blog .container .row .col-md-4 .col-md-12 .blog-title {
+  color: rgba(0, 0, 0, 0.9) !important;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0;
+  font-size: 0.8rem;
+}
+.blog .container .row .col-md-4 .col-md-12 .blog-des {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0.2rem;
+  font-size: 0.6rem;
+}
+
+/*# sourceMappingURL=blog.css.map */

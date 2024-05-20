@@ -1,0 +1,124 @@
+footer {
+  padding: 1rem 0;
+  background-color: rgb(243, 246, 250);
+}
+footer .container .row a {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 500;
+}
+footer .container .row .col-md-4 a {
+  font-size: 0.6rem !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+footer .container .row .col-md-4 p {
+  margin: 0;
+  font-size: 0.6rem;
+}
+footer .container .row .col-md-4 .address {
+  font-size: 0.6rem;
+}
+footer .container .row .col-md-4 .footer-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+footer .container .row .col-md-4 form {
+  max-width: fit-content;
+  border-radius: 0;
+  height: fit-content !important;
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5);
+}
+footer .container .row .col-md-4 form input {
+  height: 1.8rem !important;
+  padding: 0 0.5rem !important;
+  max-width: 9rem;
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.8);
+  outline: 0;
+  border: 0;
+}
+footer .container .row .col-md-4 form .btn {
+  height: 1.8rem !important;
+  padding: 0.2rem 0.5rem !important;
+  font-size: 0.6rem;
+  border-radius: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+footer .container .row .col-md-4 .social {
+  max-width: fit-content;
+}
+footer .container .row .col-md-6 .text {
+  font-size: 0.6rem;
+}
+footer .container .row .col-md-2 .footer-title {
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: 700;
+  color: #000;
+}
+footer .container .row .col-md-2 a {
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-size: 0.55rem;
+  margin: 0.15rem 0;
+}
+
+@media screen and (max-width: 700px) {
+  footer .col-md-2 p,
+  footer .col-md-4 p,
+  footer .col-md-6 p {
+    text-align: center;
+    font-size: 1rem !important;
+  }
+  footer .col-md-2 a,
+  footer .col-md-4 a,
+  footer .col-md-6 a {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  footer .col-md-2 .footer-title,
+  footer .col-md-4 .footer-title,
+  footer .col-md-6 .footer-title {
+    font-size: 1.5rem !important;
+  }
+  footer .col-md-2 .text,
+  footer .col-md-4 .text,
+  footer .col-md-6 .text {
+    font-size: 0.8rem !important;
+  }
+  footer .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .col-md-4 form {
+    max-height: 3rem !important;
+    height: 3rem;
+    display: flex;
+    margin: 0 auto;
+  }
+  footer .col-md-4 form input {
+    max-width: 15rem !important;
+    width: 15rem !important;
+    height: 3rem !important;
+  }
+  footer .col-md-4 form input,
+  footer .col-md-4 form button {
+    padding: 0.5rem 0.6rem !important;
+    font-size: 1rem !important;
+  }
+  footer .col-md-4 .social {
+    display: flex;
+    margin: 0 auto;
+  }
+  footer .col-md-4 .social i {
+    font-size: 1rem !important;
+  }
+  footer .col-md-4 a {
+    font-size: 1rem !important;
+  }
+  footer .col-md-4 #sendMail {
+    font-size: 15px !important;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

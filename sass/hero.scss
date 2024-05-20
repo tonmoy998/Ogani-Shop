@@ -1,0 +1,166 @@
+@use "colors.scss";
+.hero {
+  .container {
+    .row {
+      .col-md-3 {
+        padding: 0;
+        .list {
+          // display: none;
+          margin: 0;
+          padding: 0 !important;
+          height: auto;
+          overflow: hidden;
+          max-height: fit-content !important;
+          transition: height 0.68s ease-out;
+          cursor: pointer;
+          animation: heroSildeUp 0.75s ease-in;
+          li {
+            // border: 2px solid;
+            margin: 0;
+            font-size: 0.6em;
+            padding: 0.3rem 1.4rem;
+            font-family: "Poppins", sans-serif;
+            color: rgba(0, 0, 0, 0.767);
+          }
+        }
+        .hide-list {
+          height: 0%;
+          animation: heroSildeDown 0.75s ease-out;
+        }
+
+        .btn-menu {
+          margin: 0;
+          outline: 0;
+          border: 0;
+          width: 100%;
+          font-size: 0.7rem;
+          padding: 0.5rem 0;
+          background-color: $primary;
+          color: rgba(0, 0, 0, 0.867);
+          i {
+            padding: 0 0.4rem;
+          }
+        }
+      }
+      .col-md-9 {
+        // border: 2px solid;
+        padding: 0;
+        margin: 0;
+        .col-md-12 {
+          // border: 2px solid;
+        }
+        .second-col {
+          // border: 2px solid;
+          position: relative;
+          .des {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            .text-primary {
+              letter-spacing: 4px;
+              font-size: 0.68rem;
+              text-transform: uppercase;
+              font-family: "Kanit", "Bebas Neue";
+              margin: 0;
+            }
+            h1 {
+              // margin: 0.5rem 0;
+              font-size: 2.5em;
+              padding: 0.2rem 0;
+              // border: 2px solid;
+              width: 17rem;
+              line-height: 2.55rem;
+              font-family: "Kanit", "Bebas Neue";
+              color: rgba(0, 0, 0, 0.867);
+            }
+            p {
+              color: rgba(0, 0, 0, 0.667);
+              font-size: 0.6rem;
+            }
+            .btn-primary {
+              font-size: 0.7rem;
+              border-radius: 0;
+              color: rgba(0, 0, 0, 0.667);
+              font-family: "Kanit", "Bebas Neue";
+              letter-spacing: 2px;
+              margin-top: 1rem;
+            }
+          }
+        }
+        .frist-col {
+          height: fit-content;
+          justify-content: space-between !important;
+          // border: 2px solid red;
+          select {
+            border-radius: 0;
+            outline: 0;
+            border: 0;
+            height: 2rem;
+            width: fit-content;
+            font-size: 0.6rem !important;
+          }
+          input {
+            min-width: 12rem;
+            border: 0;
+            outline: 0;
+            color: rgba(0, 0, 0, 0.567);
+            height: 2rem;
+            font-size: 0.6rem;
+            padding-left: 0.5rem;
+          }
+          .btn {
+            font-size: 0.6rem;
+            border-radius: 0;
+            height: 2rem;
+            color: rgba(0, 0, 0, 0.867);
+            // color: rgba(255, 255, 255, 0.9);
+            i {
+              padding: 0 0.25rem;
+            }
+          }
+          .contact-column {
+            // border: 2px solid red;
+            height: 2rem;
+            .flex-column {
+              height: 2rem;
+            }
+            .fa-phone {
+              font-size: 0.9rem;
+              margin: 0 0.5rem;
+              border-radius: 50%;
+              background-color: rgba(213, 234, 200, 0.7);
+              padding: 0.6rem;
+            }
+            h1 {
+              font-size: 0.7rem;
+              padding: 0 !important;
+              margin: 0;
+              line-height: 0.9rem;
+              margin-top: 0.1rem;
+            }
+            p {
+              font-size: 0.5em;
+              color: rgba(0, 0, 0, 0.467);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@keyframes heroSildeUp {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes heroSildeDown {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}

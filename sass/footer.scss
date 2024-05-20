@@ -1,0 +1,143 @@
+footer {
+  padding: 1rem 0;
+  background-color: rgb(243, 246, 250);
+  // border: 2px solid;
+  .container {
+    // border: 2px solid;
+    .row {
+      // border: 2px solid;
+      a {
+        font-family: "Open Sans", sans-serif !important;
+        font-weight: 500;
+      }
+      .col-md-4 {
+        // border: 2px solid;
+        a {
+          font-size: 0.6rem !important;
+          color: rgba(0, 0, 0, 0.8) !important;
+        }
+        p {
+          margin: 0;
+          // padding: 0.5rem 0;
+          font-size: 0.6rem;
+        }
+        .address {
+          font-size: 0.6rem;
+        }
+        .footer-title {
+          font-size: 0.8rem;
+          font-weight: 700;
+        }
+        form {
+          max-width: fit-content;
+          border-radius: 0;
+          height: fit-content !important;
+          // border: 2px solid;
+          box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5);
+          input {
+            height: 1.8rem !important;
+            padding: 0 0.5rem !important;
+            max-width: 9rem;
+            font-size: 0.7rem;
+            color: rgba(0, 0, 0, 0.8);
+            // padding: 0.2rem 0.5rem !important;
+            // border: 2px solid;
+            outline: 0;
+            border: 0;
+          }
+          .btn {
+            height: 1.8rem !important;
+            padding: 0.2rem 0.5rem !important;
+            font-size: 0.6rem;
+            border-radius: 0;
+            color: rgba(0, 0, 0, 0.7);
+          }
+        }
+        .social {
+          max-width: fit-content;
+        }
+      }
+      .col-md-6 {
+        .text {
+          font-size: 0.6rem;
+        }
+      }
+      .col-md-2 {
+        .footer-title {
+          font-size: 0.8rem;
+          margin: 0;
+          font-weight: 700;
+          color: #000;
+          // border: 2px solid;
+        }
+        a {
+          color: rgba(0, 0, 0, 0.8) !important;
+          font-size: 0.55rem;
+          margin: 0.15rem 0;
+          // border: 2px solid;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  footer {
+    .col-md-2,
+    .col-md-4,
+    .col-md-6 {
+      p {
+        text-align: center;
+        font-size: 1rem !important;
+      }
+      a {
+        font-size: 1rem !important;
+        text-align: center;
+      }
+      .footer-title {
+        font-size: 1.5rem !important;
+      }
+      .text {
+        font-size: 0.8rem !important;
+      }
+    }
+
+    .col-md-4 {
+      // border: 2px solid red !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      form {
+        // border: 2px solid;
+        max-height: 3rem !important;
+        height: 3rem;
+        display: flex;
+        margin: 0 auto;
+        input {
+          max-width: 15rem !important;
+          width: 15rem !important;
+          height: 3rem !important;
+        }
+        input,
+        button {
+          padding: 0.5rem 0.6rem !important;
+          font-size: 1rem !important;
+        }
+      }
+      .social {
+        display: flex;
+        margin: 0 auto;
+        // border: 2px solid;
+        i {
+          font-size: 1rem !important;
+        }
+      }
+      a {
+        font-size: 1rem !important;
+      }
+      #sendMail {
+        font-size: 15px !important;
+      }
+    }
+  }
+}

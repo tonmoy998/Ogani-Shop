@@ -1,0 +1,79 @@
+.blog-page .container .row .col-md-4 {
+  display: flex;
+  justify-content: space-around;
+}
+.blog-page .container .row .col-md-4 .col-md-12 {
+  width: 99% !important;
+  height: fit-content;
+  margin: 0 auto;
+}
+.blog-page .container .row .col-md-4 .col-md-12 img {
+  width: 100%;
+  max-width: 100%;
+}
+.blog-page .container .row .col-md-4 .col-md-12 img:hover {
+  opacity: 0.75;
+}
+.blog-page .container .row .col-md-4 .col-md-12 .blog-date,
+.blog-page .container .row .col-md-4 .col-md-12 .blog-comment {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 0;
+  margin: 0;
+}
+.blog-page .container .row .col-md-4 .col-md-12 .blog-comment {
+  margin-left: 1rem;
+}
+.blog-page .container .row .col-md-4 .col-md-12 .blog-title {
+  color: rgba(0, 0, 0, 0.9) !important;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0;
+  font-size: 0.8rem;
+}
+.blog-page .container .row .col-md-4 .col-md-12 .blog-des {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0.2rem;
+  font-size: 0.6rem;
+}
+.blog-page .container .row {
+  position: relative;
+}
+.blog-page .container .row .col-md-12 {
+  background-color: #fff;
+  width: 98%;
+  margin: 0 auto;
+  max-width: 20rem;
+}
+.blog-page .container .row .col-md-12 .desc {
+  width: 95%;
+  margin: 2rem auto;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.blog-page .container .row .col-md-12 .date {
+  font-size: 0.678rem;
+  float: right;
+  padding: 0.5rem 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+.blog-page .container .row .col-md-12 .h1 {
+  font-family: "Open Sans";
+  letter-spacing: -2px;
+  text-align: center;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+  letter-spacing: -1px;
+  line-height: 1.7rem;
+  padding: 0.8rem auto;
+}
+.blog-page .container .row .col-md-12 .img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=blogPage.css.map */

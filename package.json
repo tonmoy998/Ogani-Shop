@@ -1,0 +1,19 @@
+{
+  "name": "ogani-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/:assets/css --watch"
+  },
+  "author": "Tonmoy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dotdotdot-js": "^4.1.0",
+    "jquery": "^3.7.1",
+    "nouislider": "^15.7.1",
+    "owl.carousel": "^2.3.4",
+    "sass": "^1.75.0"
+  }
+}

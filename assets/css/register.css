@@ -1,0 +1,102 @@
+.register {
+  font-size: 0.6em;
+  color: rgb(0, 0, 0);
+}
+.register .container .row {
+  position: relative;
+  border-radius: 10px !important;
+}
+.register .container .row .h5 {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.58);
+  font-size: 1.5rem;
+  letter-spacing: -2px;
+  color: rgba(1, 0, 0, 0.82);
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.register .container .row .register-bg {
+  border-radius: 10px !important;
+  opacity: 0.85 !important;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.register .container .row .col-md-4 {
+  position: relative;
+  text-align: center;
+}
+.register .container .row .col-md-4 .h5 {
+  margin-top: 2rem;
+}
+.register .container .row .col-md-4 p {
+  font-family: "Poppins";
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 700;
+  color: rgba(1, 0, 0, 0.7);
+}
+.register .container .row .col-md-8 {
+  background-color: rgb(240, 248, 250);
+  display: flex;
+  justify-content: space-around;
+}
+.register .container .row .col-md-8 .col-md-12 {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  max-width: 98%;
+  padding-bottom: 1rem;
+}
+.register .container .row .col-md-8 .col-md-12 p,
+.register .container .row .col-md-8 .col-md-12 h1 {
+  text-align: center;
+}
+.register .container .row .col-md-8 .col-md-12 form {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+.register .container .row .col-md-8 .col-md-12 form input {
+  width: 100%;
+  max-width: 18rem;
+  max-height: 3rem;
+  font-size: 0.7rem !important;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+}
+.register .container .row .col-md-8 .col-md-12 form .btn-primary {
+  width: 100%;
+  max-width: 18rem;
+  font-size: 0.7rem !important;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  color: rgba(1, 0, 0, 0.82);
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-family: "Open Sans";
+  margin-top: -0.5rem;
+}
+.register .container .row .col-md-8 .col-md-12 form .form-check-input {
+  width: 0.2rem !important;
+  border-radius: 0px;
+  margin-right: 0.5rem;
+}
+.register .container .row .col-md-8 .col-md-12 .d-flex {
+  margin-top: 0.5rem;
+  justify-content: space-between;
+  width: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.register .container .row .col-md-8 .col-md-12 .d-flex a i {
+  font-size: 1.1rem;
+  color: rgba(1, 0, 0, 0.85);
+}
+.register .container .row .col-md-8 .col-md-12 .text-sm {
+  font-size: 0.6rem;
+  color: rgba(1, 0, 0, 0.75);
+  margin-top: 0.5rem;
+}
+
+/*# sourceMappingURL=register.css.map */

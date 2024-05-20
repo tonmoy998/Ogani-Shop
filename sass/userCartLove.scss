@@ -1,0 +1,102 @@
+#user-cart-love,
+#user-cart {
+  // border: 2px solid;
+  max-width: fit-content;
+  width: 0%;
+  overflow: hidden;
+  // display: none;
+  height: 100dvh;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  background-color: rgba(237, 243, 245, 0.85);
+  backdrop-filter: blur(20px);
+  z-index: 999;
+  // transition: width 0.85s ease-in-out;
+  // animation: userCartSlide 1s ease-in forwards;
+  // cursor: pointer;
+  // animation-delay: 0.9s;
+  .h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: -1px;
+  }
+  #userCartLoveCross,
+  #userCartCross {
+    position: absolute;
+    top: 0.2rem;
+    right: 0.6rem;
+    font-size: 0.886rem;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .col-md-12 {
+    margin: 0.5rem 0;
+    width: fit-content;
+    height: fit-content;
+    // border: 2px solid;
+    position: relative;
+    overflow-y: scroll;
+
+    .d-flex {
+      .details {
+        // border: 2px solid;
+        padding: 0 0.5rem;
+        p {
+          margin: 0;
+          padding: 0;
+          font-size: 0.6rem;
+          color: rgba(0, 0, 0, 0.75);
+          span {
+            font-weight: 700;
+            font-family: "Open Sans";
+            color: rgba(0, 0, 0, 0.89);
+          }
+        }
+        .name {
+          font-size: 0.7rem;
+          color: rgba(0, 0, 0, 0.95);
+        }
+      }
+      img {
+        max-width: 5rem;
+        max-height: 5rem;
+      }
+      button {
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 0.55rem;
+        border: 2px solid;
+        padding: 0 !important;
+        font-weight: 700;
+        font-family: "Open Sans";
+        width: fit-content;
+        margin: 0;
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+      }
+      label {
+        font-size: 0.6rem;
+        margin-top: 0.124rem;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      input {
+        max-width: 3rem;
+        font-size: 0.6rem !important;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
+@keyframes userCartSlide {
+  0% {
+    transform: translateX(10rem);
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,114 @@
+.blog-page {
+  // border: 2px solid red;
+
+  .container {
+    .row {
+      .col-md-4 {
+        // border: 2px solid;
+        display: flex;
+        justify-content: space-around;
+
+        // align-items: center;
+        .col-md-12 {
+          width: 99% !important;
+          height: fit-content;
+          margin: 0 auto;
+
+          // padding: 0.5rem !important;
+          // border: 2px solid red;
+          img {
+            width: 100%;
+            max-width: 100%;
+
+            &:hover {
+              opacity: 0.75;
+            }
+          }
+
+          .blog-date,
+          .blog-comment {
+            font-size: 0.7rem;
+            color: rgba(0, 0, 0, 0.6);
+            padding: 0.5rem 0;
+            // border: 2px solid;
+            margin: 0;
+
+            i {
+              // margin-left: 0.5rem;
+              // border: 2px solid;
+            }
+          }
+
+          .blog-comment {
+            margin-left: 1rem;
+          }
+
+          .blog-title {
+            color: rgba(0, 0, 0, 0.9) !important;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin: 0;
+            font-size: 0.8rem;
+          }
+
+          .blog-des {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            color: rgba(0, 0, 0, 0.8);
+            margin-top: 0.2rem;
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+
+    .row {
+      // border: 2px solid red;
+      position: relative;
+
+      .col-md-12 {
+        background-color: #fff;
+        width: 98%;
+        margin: 0 auto;
+        // border: 2px solid blue;
+        max-width: 20rem;
+
+        .desc {
+          width: 95%;
+          margin: 2rem auto;
+          font-size: 0.8rem;
+          // padding: 5%;
+          //
+          color: rgba(0, 0, 0, 0.85);
+        }
+
+        .date {
+          font-size: 0.678rem;
+          // margin-left: 5%;
+          float: right;
+          padding: 0.5rem 0;
+
+          color: rgba(0, 0, 0, 0.7);
+        }
+
+        .h1 {
+          font-family: "Open Sans";
+          letter-spacing: -2px;
+          text-align: center;
+          font-weight: 800;
+          color: rgba(0, 0, 0, 0.9);
+          font-size: 1.0rem;
+          letter-spacing: -1px;
+          line-height: 1.7rem;
+          padding: 0.8rem auto;
+        }
+
+        .img-fluid {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
